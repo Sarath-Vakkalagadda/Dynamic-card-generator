@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Card Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        
+            <h1>Welcome</h1>
+        
+    </header>
+    <div class="container" id="sigma">
+        <div class="form">
+            <form>
+                <label for="Ctitle">Enter Card Title</label>
+                <input type="text" id="Ctitle" name="Ctitle"><br>
+                <label for="Chname">Enter Channel name</label>
+                <input type="text" id="Chname" name="Chname"><br>
+                <label for="vcount">Enter View Count</label>
+                <input type="number" id="vcount" name="vcount"><br>
+                <label for="age">Enter age in months</label>
+                <input type="number" id="age" name="age"><br>
+                <label for="thumb">Add URL for Thumbnail:</label>
+                <input type="url" id="thumb" name="thumb"><br>
+                <label for="duration">Enter Video duration</label>
+                <input type="text" id="duration" name="duration"><br>
+                <button type="submit" onclick="mus()">Submit</button>
+            </form>
+            Click submit to create card
+        </div>
+        <div class="container2">
+            <div class="card">
+                <div class="image">
+                    <img
+                        src="https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLACwWOixJVrKLFindK92kYMgTcQbw">
+                    <div class="capsule">31.50</div>
+                </div>
+                <div class="content">
+                    <h2>Welcome to the amazing world of gumball</h2>
+                    <p>Code with harry. 12k views. 2 months ago</p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
